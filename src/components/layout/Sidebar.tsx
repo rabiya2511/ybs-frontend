@@ -16,9 +16,9 @@ function SidebarContent({ onNavigate }: { onNavigate?: () => void }) {
   return (
     <div className="flex h-full flex-col bg-navy">
       <div className="border-b border-white/[0.07] px-5 py-6">
-        <div className="font-display text-xl font-bold leading-none text-white">DIOS</div>
+        <div className="font-display text-xl font-bold leading-none text-white">StartupSaaS</div>
         <div className="mt-1 text-[10px] uppercase tracking-[0.08em] text-white/35">
-          Digital Intelligence Operating System
+           Your Startup, Managed
         </div>
       </div>
 
@@ -38,8 +38,7 @@ function SidebarContent({ onNavigate }: { onNavigate?: () => void }) {
       <div className="border-t border-white/[0.07] p-3">
         <button
           type="button"
-          className="flex w-full items-center gap-2.5 rounded-[10px] p-2.5 text-left transition-colors duration-150 hover:bg-white/[0.06] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
-        >
+          className="flex w-full items-center gap-2.5 rounded-[10px] p-2.5 text-left transition-colors duration-150 hover:bg-white/[0.06] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"        >
           <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-gold text-xs font-bold text-navy">
             {PLACEHOLDER_USER.initials}
           </span>
